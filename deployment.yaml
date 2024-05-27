@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: test
-        image: public.ecr.aws/k9m9j1u9/pih-auth:latest
+        image: 882027629355.dkr.ecr.us-east-1.amazonaws.com/pih-cicd:latest
         ports:
         - containerPort: 80
       imagePullSecrets:
