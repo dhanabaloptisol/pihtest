@@ -19,6 +19,8 @@ spec:
         image: public.ecr.aws/k9m9j1u9/pih-auth:latest
         ports:
         - containerPort: 80
+      imagePullSecrets:
+      - name: aws-secret
 
 ---
 apiVersion: v1
