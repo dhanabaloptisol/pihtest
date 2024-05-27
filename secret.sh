@@ -3,7 +3,7 @@ REGION=us-east-1
 SECRET_NAME=aws-secret
 EMAIL=email@email.com
 
-#
+########
 # Fetch token (which will expire in 12 hours)
 #
 
