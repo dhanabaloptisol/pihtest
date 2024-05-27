@@ -1,6 +1,7 @@
-#This is a sample Image 
 FROM ubuntu 
-
-RUN apt-get update 
-RUN apt-get install -y nginx 
-CMD ["echo","Image created"] 
+RUN apt update 
+RUN apt install –y apache2 
+RUN apt install –y apache2-utils 
+RUN apt clean 
+EXPOSE 80
+CMD [“apache2ctl”, “-D”, “FOREGROUND”] 
